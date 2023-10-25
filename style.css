@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-image: url(https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190102094859/Mario-Yoshi-Egg.jpg);
   padding: 0px;
-}
+} 
 *, *:before, *:after {
   box-sizing: inherit;
 }
