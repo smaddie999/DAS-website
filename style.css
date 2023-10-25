@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+  background-image: url(https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190102094859/Mario-Yoshi-Egg.jpg);
+  padding: 0px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.dino-academy-website {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: auto;
+  border: solid white;
+  font-family: 'Raleway', sans-serif;
+  background-color: #72CEF2;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+#intro-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #FF842B;
+  color: white;
+  padding: 20px;
+  font-size: 25px;  
+}
+#intro-p {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-top: 0px;
+  padding: 25px;
+  font-size: 18px;
+  background-color: #FFA82B;
+  color: white;
+  border-top: dashed white 5px;
+  font-size: 16.5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#boxes {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px; 
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+ 
+}
+#box-curricula {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  margin-bottom: 15px;
+  background-color: #46A881;
+  background-image: url(https://patch.com/img/cdn20/users/23958621/20200813/015644/styles/patch_image/public/back-to-school___13134409387.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#box-lunches {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  margin-bottom: 15px;
+  background-color: #1A3F3D;
+  background-image: url(https://img.livestrong.com/-/clsd/getty/82965f93904649bba70ac8577b9335b5.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#box-naptime {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  margin-bottom: 15px;
+  background-color: #478FA8;
+  background-image: url(https://img.freepik.com/free-vector/night-sky-with-moon-stars-clouds-background_1017-33777.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#box-staff {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  margin-bottom: 15px;
+  background-color: #60A873;
+  background-image: url(https://frac.org/wp-content/uploads/blackboard-apple-school-supplies.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#box-gallery {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+  margin-bottom: 15px;
+  background-color: #265D5B;
+  background-image: url(https://pbs.twimg.com/media/D5asHEkW0AE77H5.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  color: #1A3F3D;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #FF842B;
+  color: white;
+}
+
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  z-index: 3;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #FFA82B;
+  padding: 8px;
+}
+#btn-contact {
+  display: flex;
+  margin-left: 15px;
+  padding: 15px;
+}
+@media (min-width: 700px) {
+  .dino-academy-website {
+    max-width: 1000px;
+    max-height: 1350px;
+    padding: 20px;
+    MARGIN: auto;
+  }
+  
+#boxes {
+  display: flex;
+  width: 100%;
+  margin-top: 20px; 
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  }
+#box-curricula, #box-lunches, #box-naptime, #box-staff, #box-gallery {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
